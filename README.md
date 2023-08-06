@@ -28,9 +28,25 @@ The Couch Replication Protocol lets your data flow seamlessly between server clu
 - If you need Add your application, then make sure to create a folder and copy the file inside Docker with all dependencies installed. Check `Dockerfile` for more details
 - To Expose CouchDB in different ports, Add a new environment variable `COUCHDB_CLUSTER_PORT_NUMBER` and set the value to the port number you want to expose. Update the `PORT` value in railway to the same port number.
 - Deploy
-- You can access the CouchDB Web UI by opening your web browser and navigating to Railway's public URL with path `_utils` something like this `https://<project-name>.railway.dev/_utils/`. You should be able to see the CouchDB Dashboard.
-- Examples Folder has a sample code to connect to CouchDB and perform CRUD operations. You can use this as a reference to build your application.
-
+- Visit the public URL from Railway to access CouchDB
+- You can access the CouchDB Web UI by opening your web browser and navigating to Railway's public URL with path `_utils` something like this `https://<project-name>.up.railway.app/_utils/`. You should be able to see the CouchDB Dashboard.
+![dashboard](img/dashboard.png)
+- To Create new database click on `Create Database` and enter the database name and click on `Create`
+![create-db](img/newdb.png)
+- To view the database click on the database name from the list of databases on dashboard. You can view any document by clicking on the document id.
+![view-db](img/databases.png)
+- You can connect your client application to CouchDB and create databases. Refer to the [Examples](Examples/Python/example.py) for python code to connect to CouchDB and perform CRUD operations.
+![Code Editor](img/python.png)
+- CouchDB also has options to write custom queries from Dashboard
+![Query](img/customquery.png)
+- From dashboard you can nagivate to tasks to view and manage the tasks
+![Tasks](img/tasks.png)
+- Dashboard also has configuration settings where you can change the configuration of CouchDB
+![Configuration](img/configuration.png)
+- You can also manager users from dashboard
+![Users](img/usermanagement.png)
+- For more information on CouchDB refer to the [Documentation](https://docs.couchdb.org/en/)
+- Enjoy! 🎉
 
 ## 📝 Notes
 

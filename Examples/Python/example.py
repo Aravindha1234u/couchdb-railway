@@ -1,7 +1,7 @@
 import couchdb
 
 # Configuration for CouchDB server
-COUCHDB_URL = 'http://localhost:5984/'
+COUCHDB_URL = 'https://admin:password@database-production.up.railway.app/'
 DB_NAME = 'test'  # Change this to your database name
 
 # Connect to the CouchDB server
