@@ -5,7 +5,7 @@ USER 0
 ### Install dependencies
 ### Move your application into the container
 ### Change user to the default non-root user
-USER 1001
+# USER 1001 - ## Railway Throws permission error if this is enabled
 
 ### Modify the ports used by NGINX by default
 # ENV COUCHDB_PORT_NUMBER=1234 # It is also possible to change this environment variable at runtime
