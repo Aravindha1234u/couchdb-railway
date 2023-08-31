@@ -38,6 +38,3 @@ print(db.get(doc_id))
 # Delete the document
 db.delete(retrieved_doc)
 print("Document deleted.")
-
-# Disconnect from the server
-server.disconnect()
